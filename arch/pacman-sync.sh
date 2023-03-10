@@ -34,6 +34,8 @@ packages='
   nodejs
   ranger
   fish
+  htop
+  btop
 '
 
 for i in $packages
