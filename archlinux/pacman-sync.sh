@@ -42,6 +42,7 @@ packages='
   noto-fonts-emoji
   plasma-systemmonitor
   ksysguard
+  kinfocenter
 '
 
 for i in $packages
