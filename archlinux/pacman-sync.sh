@@ -43,6 +43,8 @@ packages='
   plasma-systemmonitor
   ksysguard
   kinfocenter
+  mesa
+  android-tools
 '
 
 for i in $packages
