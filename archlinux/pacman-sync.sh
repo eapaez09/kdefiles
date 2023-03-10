@@ -38,6 +38,7 @@ packages='
   btop
   ark
   plasma-wayland-session
+  noto-fonts-emoji
 '
 
 for i in $packages
