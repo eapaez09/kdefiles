@@ -40,6 +40,7 @@ packages='
   ark
   plasma-wayland-session
   noto-fonts-emoji
+  ksysguard
 '
 
 for i in $packages
