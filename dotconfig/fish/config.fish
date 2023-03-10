@@ -1,9 +1,3 @@
-if status --is-login
-	if test (tty) = /dev/tty1
-		exec startx --keeptty
-	end
-end
-
 # function fish_prompt -d "Write out the prompt"
 #     # This shows up as USER@HOST /home/user/ >, with the directory colored
 #     # $USER and $hostname are set by fish, so you can just use them
@@ -29,6 +23,12 @@ alias la="exa -la --group-directories-first"
 alias l="exa -l"
 alias v="nvim ."
 alias sv="sudo nvim ."
+alias vi="nvim $1"
+alias svi="sudo nvim $1"
+alias git-user="git config --global user.name $1"
+alias git-mail="git config --global user.email $1"
+alias git-creds="git config --global credential.helper store"
+alias arch-rebuild="sh $HOME/Documents/kdefiles/arch/pacman-sync.sh"
 
 export XDG_SESSION_TYPE=X11
 export XDG_CURRENT_DESKTOP=i3
