@@ -36,6 +36,7 @@ packages='
   fish
   htop
   btop
+  ark
 '
 
 for i in $packages
