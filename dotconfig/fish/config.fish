@@ -28,7 +28,7 @@ alias svi="sudo nvim $1"
 alias git-user="git config --global user.name $1"
 alias git-mail="git config --global user.email $1"
 alias git-creds="git config --global credential.helper store"
-alias arch-rebuild="sh $HOME/,config/archlinux/pacman-sync.sh"
+alias arch-rebuild="sh $HOME/.config/archlinux/pacman-sync.sh"
 
 function fish_greeting
 end

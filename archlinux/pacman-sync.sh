@@ -37,6 +37,7 @@ packages='
   htop
   btop
   ark
+  plasma-wayland-session
 '
 
 for i in $packages
