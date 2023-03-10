@@ -7,12 +7,14 @@ rm -R $HOME/.config/konsave/
 rm -R $HOME/.config/fish/ 
 rm -R $HOME/.config/fastfetch/
 rm -R $HOME/.config/mpv/
+rm -R $HOME/.config/archlinux/
 
 # Global dotfiles, configured even if you didn't specify the PC
 cp -R $HOME/Documents/kdefiles/dotconfig/konsave $HOME/.config/
 cp -R $HOME/Documents/kdefiles/dotconfig/fish/ $HOME/.config/
 cp -R $HOME/Documents/kdefiles/dotconfig/fastfetch/ $HOME/.config/
 cp -R $HOME/Documents/kdefiles/dotconfig/mpv/ $HOME/.config/
+cp -R $HOME/Documents/kdefiles/archlinux/ $HOME/.config/
 
 if [[ -d "$HOME/.local/share/fonts/Ubuntu" ]]; then
     echo "Fonts already installed." 

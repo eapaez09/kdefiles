@@ -22,6 +22,9 @@ cp -R $HOME/.config/fish/ $HOME/Documents/kdefiles/dotconfig/
 rm -R $HOME/Documents/kdefiles/dotconfig/mpv/
 cp -R $HOME/.config/mpv/ $HOME/Documents/kdefiles/dotconfig/
 #
+# arch
+rm -R $HOME/Documents/kdefiles/archlinux/
+cp -R $HOME/.config/archlinux/ $HOME/Documents/kdefiles/
 
 cd $HOME/Documents/kdefiles/
 git add -A
