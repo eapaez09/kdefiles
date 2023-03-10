@@ -1,0 +1,27 @@
+cd $HOME/Documents/kdefiles
+git pull
+
+cd
+
+#
+## Global Apps
+# 
+# fastfetch
+rm -R $HOME/Documents/kdefiles/dotconfig/fastfetch/
+cp -R $HOME/.config/fastfetch/ $HOME/Documents/kdefiles/dotconfig/
+#
+# fish
+rm -R $HOME/Documents/kdefiles/dotconfig/fish/
+cp -R $HOME/.config/fish/ $HOME/Documents/kdefiles/dotconfig/
+#
+# mpv
+rm -R $HOME/Documents/kdefiles/dotconfig/mpv/
+cp -R $HOME/.config/mpv/ $HOME/Documents/kdefiles/dotconfig/
+#
+
+cd $HOME/Documents/kdefiles/
+git add -A
+git commit -m "$1"
+git push
+
+cd
