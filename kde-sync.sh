@@ -5,6 +5,10 @@ cd
 
 #
 ## Global Apps
+#
+# konsave
+rm -R $HOME/Documents/kdefiles/dotconfig/konsave
+cp -R $HOME/.config/konsave/ $HOME/Documents/kdefiles/dotconfig/
 # 
 # fastfetch
 rm -R $HOME/Documents/kdefiles/dotconfig/fastfetch/

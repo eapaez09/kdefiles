@@ -3,11 +3,13 @@ git pull
 
 cd
 
+rm -R $HOME/.config/konsave/
 rm -R $HOME/.config/fish/ 
 rm -R $HOME/.config/fastfetch/
 rm -R $HOME/.config/mpv/
 
 # Global dotfiles, configured even if you didn't specify the PC
+cp -R $HOME/Documents/kdefiles/dotconfig/konsave $HOME/.config/
 cp -R $HOME/Documents/kdefiles/dotconfig/fish/ $HOME/.config/
 cp -R $HOME/Documents/kdefiles/dotconfig/fastfetch/ $HOME/.config/
 cp -R $HOME/Documents/kdefiles/dotconfig/mpv/ $HOME/.config/
