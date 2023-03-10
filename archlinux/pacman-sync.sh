@@ -45,17 +45,17 @@ packages='
 
 for i in $packages
   do
-    if [[ $(pacman -Qs $i) > /dev/null ]]; then
+    if [[ $(pacman -Q $i) != "" ]]; then
       echo "The package $i is installed"
     else
       sudo pacman -S $i
     fi
   done
 
-if [[ $(pacman -Qs paru) > /dev/null ]]; then
+if [[ $(pacman -Q paru) != "" ]]; then
   for j in $aur
   do
-    if [[ $(pacman -Qs $j) > /dev/null ]]; then
+    if [[ $(pacman -Q $j) != "" ]]; then
       echo "The package $j is installed"
     else
       paru -S $j
