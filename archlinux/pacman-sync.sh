@@ -3,6 +3,7 @@ aur='
   timeshift
   konsave
   fastfetch
+  update-grub
 '
 packages='
   neovim
