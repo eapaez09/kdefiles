@@ -40,6 +40,7 @@ packages='
   ark
   plasma-wayland-session
   noto-fonts-emoji
+  plasma-systemmonitor
   ksysguard
 '
 
