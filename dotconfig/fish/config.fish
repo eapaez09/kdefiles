@@ -30,9 +30,6 @@ alias git-mail="git config --global user.email $1"
 alias git-creds="git config --global credential.helper store"
 alias arch-rebuild="sh $HOME/,config/archlinux/pacman-sync.sh"
 
-export XDG_SESSION_TYPE=X11
-export XDG_CURRENT_DESKTOP=i3
-
 function fish_greeting
 end
 
